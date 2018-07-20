@@ -10,31 +10,28 @@ weight = 5
 # List your academic interests.
 [interests]
   interests = [
-    "Artificial Intelligence",
-    "Computational Linguistics",
-    "Information Retrieval"
+    "Cryptanalysis",
+    "Algebraic Aspects of Cryptanalysis",
+    "Groebner Bases",
+    "Boolean Functions",
+    "Substitution Boxes"
   ]
 
 # List your qualifications (such as academic degrees).
 [[education.courses]]
-  course = "PhD in Artificial Intelligence"
-  institution = "Stanford University"
-  year = 2012
+  course = "Master of Science (Cryptography)"
+  institution = "Middle East Technical University, Turkey"
+  year = 2014
 
 [[education.courses]]
-  course = "MEng in Artificial Intelligence"
-  institution = "Massachusetts Institute of Technology"
-  year = 2009
-
-[[education.courses]]
-  course = "BSc in Artificial Intelligence"
-  institution = "Massachusetts Institute of Technology"
+  course = "Bachelor in Computer Science"
+  institution = "University Islam Antarabangsa Malaysia"
   year = 2008
  
 +++
 
 # Biography
 
-Lena Smith is a professor of artificial intelligence at the Stanford AI Lab. Her research interests include distributed robotics, mobile computing and programmable matter. She leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+Rusydi Makarim is a PhD student at the [Mathematical Institute](https://www.universiteitleiden.nl/en/science/mathematics), [University Leiden](https://leiden.edu) and [CWI Cryptology Group](https://projects.cwi.nl/crypto/). His current research interest focuses on the algebraic aspects of cryptanalysis, in particular techniques to solve multivariate quadratic polynomial equations over a finite field. He also has a strong interest in understanding cryptographic aspect of Boolean functions and substitution boxes (S-Box).
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate. 
+Rusydi is an active [SageMath](https://sagemath.org) developer. He is mainly involved in the development of module to analyse cryptographic properties of [Boolean functions](http://doc.sagemath.org/html/en/reference/cryptography/sage/crypto/boolean_function.html) and [S-Boxes](http://doc.sagemath.org/html/en/reference/cryptography/sage/crypto/sbox.html).

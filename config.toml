@@ -67,9 +67,9 @@ enableGitInfo = false
   gravatar = false  # Get your avatar from Gravatar.com? (true/false)
   avatar = "portrait.jpg"  # Specify an avatar image (in `static/img/` folder) or delete value to disable avatar.
   email = "makarim@cwi.nl"
-  address = ""
+  address = "Science Park 123 1098XK Amsterdam"
   office_hours = ""
-  phone = ""
+  phone = "+31 20 592 4012"
   skype = ""
   telegram = ""
 
@@ -176,13 +176,12 @@ enableGitInfo = false
   #   For multilingual sites, `publication_types` can be copied to each language section at the end of this file and
   #   translated.
   publication_types = [
-    'Uncategorized',  # 0
     'Conference paper',  # 1
     'Journal article',  # 2
-    'Manuscript',  # 3
-    'Report',  # 4
-    'Book',  # 5
-    'Book section'  # 6
+    'Master Thesis'  # 3
+    #'Report',  # 4
+    #'Book',  # 5
+    #'Book section'  # 6
   ]
 
   # Configuration of talk pages.
@@ -206,7 +205,7 @@ enableGitInfo = false
     #   1 = Detailed
     #   2 = APA
     #   3 = MLA
-    publication_format = 3
+    publication_format = 0
 
   # Social/Academic Networking
   #
@@ -241,6 +240,11 @@ enableGitInfo = false
     icon_pack = "fa"
     link = "https://github.com/rusydi"
 
+  [[params.social]]
+    icon = "linkedin"
+    icon_pach = "fa"
+    link = "https://nl.linkedin.com/in/rusydi-h-makarim-317a8231"
+
   # Link to a PDF of your resume/CV from the About widget.
   # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
   # [[params.social]]
@@ -263,23 +267,23 @@ enableGitInfo = false
 
 [[menu.main]]
   name = "Publications"
-  url = "#publications_selected"
+  url = "#publications"
   weight = 2
 
 #[[menu.main]]
-#  name = "Posts"
-#  url = "#posts"
+#  name = "Talks"
+#  url = "#talks"
 #  weight = 3
 
-#[[menu.main]]
-#  name = "Projects"
-#  url = "#projects"
-#  weight = 4
+[[menu.main]]
+  name = "Softwares"
+  url = "#projects"
+  weight = 4
 
-#[[menu.main]]
-#  name = "Teaching"
-#  url = "#teaching"
-#  weight = 5
+[[menu.main]]
+  name = "Teaching"
+  url = "#teaching"
+  weight = 5
 
 [[menu.main]]
   name = "Contact"
